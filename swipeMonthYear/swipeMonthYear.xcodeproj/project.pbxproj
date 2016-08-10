@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		954923611D5B2E6400B5221B /* SwipeMonthView in Resources */ = {isa = PBXBuildFile; fileRef = 9549235E1D5B2E6400B5221B /* SwipeMonthView */; };
+		954923621D5B2E6400B5221B /* SwipeTimeView in Resources */ = {isa = PBXBuildFile; fileRef = 9549235F1D5B2E6400B5221B /* SwipeTimeView */; };
+		954923631D5B2E6400B5221B /* SwipeYearAndMonth in Resources */ = {isa = PBXBuildFile; fileRef = 954923601D5B2E6400B5221B /* SwipeYearAndMonth */; };
 		957A82241D5B29CD00F4722D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 957A82231D5B29CD00F4722D /* main.m */; };
 		957A82271D5B29CD00F4722D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 957A82261D5B29CD00F4722D /* AppDelegate.m */; };
 		957A822A1D5B29CD00F4722D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957A82291D5B29CD00F4722D /* ViewController.m */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9549235E1D5B2E6400B5221B /* SwipeMonthView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwipeMonthView; sourceTree = "<group>"; };
+		9549235F1D5B2E6400B5221B /* SwipeTimeView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwipeTimeView; sourceTree = "<group>"; };
+		954923601D5B2E6400B5221B /* SwipeYearAndMonth */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwipeYearAndMonth; sourceTree = "<group>"; };
 		957A821F1D5B29CD00F4722D /* swipeMonthYear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swipeMonthYear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957A82231D5B29CD00F4722D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		957A82251D5B29CD00F4722D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +107,9 @@
 		957A82211D5B29CD00F4722D /* swipeMonthYear */ = {
 			isa = PBXGroup;
 			children = (
+				9549235E1D5B2E6400B5221B /* SwipeMonthView */,
+				9549235F1D5B2E6400B5221B /* SwipeTimeView */,
+				954923601D5B2E6400B5221B /* SwipeYearAndMonth */,
 				957A82251D5B29CD00F4722D /* AppDelegate.h */,
 				957A82261D5B29CD00F4722D /* AppDelegate.m */,
 				957A82281D5B29CD00F4722D /* ViewController.h */,
@@ -244,8 +253,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				957A82321D5B29CD00F4722D /* LaunchScreen.storyboard in Resources */,
+				954923631D5B2E6400B5221B /* SwipeYearAndMonth in Resources */,
+				954923621D5B2E6400B5221B /* SwipeTimeView in Resources */,
 				957A822F1D5B29CD00F4722D /* Assets.xcassets in Resources */,
 				957A822D1D5B29CD00F4722D /* Main.storyboard in Resources */,
+				954923611D5B2E6400B5221B /* SwipeMonthView in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +510,7 @@
 				957A824E1D5B29CD00F4722D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		957A824F1D5B29CD00F4722D /* Build configuration list for PBXNativeTarget "swipeMonthYearTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				957A82511D5B29CD00F4722D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		957A82521D5B29CD00F4722D /* Build configuration list for PBXNativeTarget "swipeMonthYearUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				957A82541D5B29CD00F4722D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
