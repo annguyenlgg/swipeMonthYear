@@ -51,9 +51,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "annguyenlgg" => "email@address.com" }
+  s.author             = { "annguyenlgg" => "an.nguyen.lgg@gmail.com" }
   # Or just: s.author    = "annguyenlgg"
-  # s.authors            = { "annguyenlgg" => "email@address.com" }
+  # s.authors            = { "annguyenlgg" => "an.nguyen.lgg@gmail.com" }
   # s.social_media_url   = "http://twitter.com/annguyenlgg"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -62,7 +62,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+  s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/annguyenlgg/swipeMonthYear.git", :commit => "1cd35b82e2e99a20b333c040155c1b2fd2138bab" }
+  s.source       = { :git => "https://github.com/annguyenlgg/swipeMonthYear.git", :commit => "7d5656c865d086e0acb032cfcee62d9b425bdd5b" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "swipeMonthYear", "swipeMonthYear/**/*.{h,m}"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -128,7 +128,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
