@@ -6,13 +6,13 @@
 //  Copyright © 2016 AnN. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "SwipeMYAppDelegate.h"
 
-@interface AppDelegate ()
+@interface SwipeMYAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation SwipeMYAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

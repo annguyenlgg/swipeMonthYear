@@ -6,13 +6,13 @@
 //  Copyright © 2016 AnN. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SwipeMYViewController.h"
 
-@interface ViewController ()
+@interface SwipeMYViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SwipeMYViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

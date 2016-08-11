@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		958A6BBD1D5C21E300E22412 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 958A6BBC1D5C21E300E22412 /* main.m */; };
-		958A6BC01D5C21E300E22412 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 958A6BBF1D5C21E300E22412 /* AppDelegate.m */; };
-		958A6BC31D5C21E300E22412 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 958A6BC21D5C21E300E22412 /* ViewController.m */; };
+		958A6BC01D5C21E300E22412 /* SwipeMYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 958A6BBF1D5C21E300E22412 /* SwipeMYAppDelegate.m */; };
+		958A6BC31D5C21E300E22412 /* SwipeMYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 958A6BC21D5C21E300E22412 /* SwipeMYViewController.m */; };
 		958A6BC61D5C21E300E22412 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958A6BC41D5C21E300E22412 /* Main.storyboard */; };
 		958A6BC81D5C21E300E22412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958A6BC71D5C21E300E22412 /* Assets.xcassets */; };
 		958A6BCB1D5C21E300E22412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958A6BC91D5C21E300E22412 /* LaunchScreen.storyboard */; };
@@ -21,10 +21,10 @@
 /* Begin PBXFileReference section */
 		958A6BB81D5C21E300E22412 /* swipeMonthYear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swipeMonthYear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		958A6BBC1D5C21E300E22412 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		958A6BBE1D5C21E300E22412 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		958A6BBF1D5C21E300E22412 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		958A6BC11D5C21E300E22412 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		958A6BC21D5C21E300E22412 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		958A6BBE1D5C21E300E22412 /* SwipeMYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeMYAppDelegate.h; sourceTree = "<group>"; };
+		958A6BBF1D5C21E300E22412 /* SwipeMYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeMYAppDelegate.m; sourceTree = "<group>"; };
+		958A6BC11D5C21E300E22412 /* SwipeMYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeMYViewController.h; sourceTree = "<group>"; };
+		958A6BC21D5C21E300E22412 /* SwipeMYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeMYViewController.m; sourceTree = "<group>"; };
 		958A6BC51D5C21E300E22412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		958A6BC71D5C21E300E22412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		958A6BCA1D5C21E300E22412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,10 +69,10 @@
 				958A6BD31D5C221B00E22412 /* SwipeMonthView */,
 				958A6BD41D5C221B00E22412 /* SwipeTimeView */,
 				958A6BD51D5C221B00E22412 /* SwipeYearAndMonth */,
-				958A6BBE1D5C21E300E22412 /* AppDelegate.h */,
-				958A6BBF1D5C21E300E22412 /* AppDelegate.m */,
-				958A6BC11D5C21E300E22412 /* ViewController.h */,
-				958A6BC21D5C21E300E22412 /* ViewController.m */,
+				958A6BBE1D5C21E300E22412 /* SwipeMYAppDelegate.h */,
+				958A6BBF1D5C21E300E22412 /* SwipeMYAppDelegate.m */,
+				958A6BC11D5C21E300E22412 /* SwipeMYViewController.h */,
+				958A6BC21D5C21E300E22412 /* SwipeMYViewController.m */,
 				958A6BC41D5C21E300E22412 /* Main.storyboard */,
 				958A6BC71D5C21E300E22412 /* Assets.xcassets */,
 				958A6BC91D5C21E300E22412 /* LaunchScreen.storyboard */,
@@ -163,8 +163,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				958A6BC31D5C21E300E22412 /* ViewController.m in Sources */,
-				958A6BC01D5C21E300E22412 /* AppDelegate.m in Sources */,
+				958A6BC31D5C21E300E22412 /* SwipeMYViewController.m in Sources */,
+				958A6BC01D5C21E300E22412 /* SwipeMYAppDelegate.m in Sources */,
 				958A6BBD1D5C21E300E22412 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +316,7 @@
 				958A6BD11D5C21E300E22412 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
