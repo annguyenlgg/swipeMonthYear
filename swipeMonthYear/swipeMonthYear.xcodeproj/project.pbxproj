@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3632FCE65201FEB912CDA122 /* libPods-swipeMonthYear.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB23A4490739588992C372C3 /* libPods-swipeMonthYear.a */; };
-		3D1D6E3096EA82D9C601E93D /* libPods-swipeMonthYearTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDB2D8613AEFAF090D708CE /* libPods-swipeMonthYearTests.a */; };
 		954923611D5B2E6400B5221B /* SwipeMonthView in Resources */ = {isa = PBXBuildFile; fileRef = 9549235E1D5B2E6400B5221B /* SwipeMonthView */; };
 		954923621D5B2E6400B5221B /* SwipeTimeView in Resources */ = {isa = PBXBuildFile; fileRef = 9549235F1D5B2E6400B5221B /* SwipeTimeView */; };
 		954923631D5B2E6400B5221B /* SwipeYearAndMonth in Resources */ = {isa = PBXBuildFile; fileRef = 954923601D5B2E6400B5221B /* SwipeYearAndMonth */; };
@@ -18,27 +17,7 @@
 		957A822D1D5B29CD00F4722D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957A822B1D5B29CD00F4722D /* Main.storyboard */; };
 		957A822F1D5B29CD00F4722D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957A822E1D5B29CD00F4722D /* Assets.xcassets */; };
 		957A82321D5B29CD00F4722D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957A82301D5B29CD00F4722D /* LaunchScreen.storyboard */; };
-		957A823D1D5B29CD00F4722D /* swipeMonthYearTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 957A823C1D5B29CD00F4722D /* swipeMonthYearTests.m */; };
-		957A82481D5B29CD00F4722D /* swipeMonthYearUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 957A82471D5B29CD00F4722D /* swipeMonthYearUITests.m */; };
-		B6EB356E8CAB92F676936075 /* libPods-swipeMonthYearUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30099B39284D34E11F3F47A2 /* libPods-swipeMonthYearUITests.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		957A82391D5B29CD00F4722D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 957A82171D5B29CD00F4722D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 957A821E1D5B29CD00F4722D;
-			remoteInfo = swipeMonthYear;
-		};
-		957A82441D5B29CD00F4722D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 957A82171D5B29CD00F4722D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 957A821E1D5B29CD00F4722D;
-			remoteInfo = swipeMonthYear;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		066593DA3A48635A036C6221 /* Pods-swipeMonthYear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swipeMonthYear.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swipeMonthYear/Pods-swipeMonthYear.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,10 +41,8 @@
 		957A822E1D5B29CD00F4722D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		957A82311D5B29CD00F4722D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		957A82331D5B29CD00F4722D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		957A82381D5B29CD00F4722D /* swipeMonthYearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swipeMonthYearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		957A823C1D5B29CD00F4722D /* swipeMonthYearTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = swipeMonthYearTests.m; sourceTree = "<group>"; };
 		957A823E1D5B29CD00F4722D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		957A82431D5B29CD00F4722D /* swipeMonthYearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swipeMonthYearUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		957A82471D5B29CD00F4722D /* swipeMonthYearUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = swipeMonthYearUITests.m; sourceTree = "<group>"; };
 		957A82491D5B29CD00F4722D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		958A6B6F1D5C182000E22412 /* GlobalDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDefine.h; sourceTree = "<group>"; };
@@ -78,22 +55,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3632FCE65201FEB912CDA122 /* libPods-swipeMonthYear.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		957A82351D5B29CD00F4722D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D1D6E3096EA82D9C601E93D /* libPods-swipeMonthYearTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		957A82401D5B29CD00F4722D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6EB356E8CAB92F676936075 /* libPods-swipeMonthYearUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,8 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				957A821F1D5B29CD00F4722D /* swipeMonthYear.app */,
-				957A82381D5B29CD00F4722D /* swipeMonthYearTests.xctest */,
-				957A82431D5B29CD00F4722D /* swipeMonthYearUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -214,47 +173,6 @@
 			productReference = 957A821F1D5B29CD00F4722D /* swipeMonthYear.app */;
 			productType = "com.apple.product-type.application";
 		};
-		957A82371D5B29CD00F4722D /* swipeMonthYearTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 957A824F1D5B29CD00F4722D /* Build configuration list for PBXNativeTarget "swipeMonthYearTests" */;
-			buildPhases = (
-				E6B20B40D4057C7883BE633E /* [CP] Check Pods Manifest.lock */,
-				957A82341D5B29CD00F4722D /* Sources */,
-				957A82351D5B29CD00F4722D /* Frameworks */,
-				957A82361D5B29CD00F4722D /* Resources */,
-				A0E005B97627E55267DD5B67 /* [CP] Embed Pods Frameworks */,
-				F5CA746D20F869D46CCF3406 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				957A823A1D5B29CD00F4722D /* PBXTargetDependency */,
-			);
-			name = swipeMonthYearTests;
-			productName = swipeMonthYearTests;
-			productReference = 957A82381D5B29CD00F4722D /* swipeMonthYearTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		957A82421D5B29CD00F4722D /* swipeMonthYearUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 957A82521D5B29CD00F4722D /* Build configuration list for PBXNativeTarget "swipeMonthYearUITests" */;
-			buildPhases = (
-				EEE1C1132F86263182491338 /* [CP] Check Pods Manifest.lock */,
-				957A823F1D5B29CD00F4722D /* Sources */,
-				957A82401D5B29CD00F4722D /* Frameworks */,
-				957A82411D5B29CD00F4722D /* Resources */,
-				C722773190810079280F23B1 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				957A82451D5B29CD00F4722D /* PBXTargetDependency */,
-			);
-			name = swipeMonthYearUITests;
-			productName = swipeMonthYearUITests;
-			productReference = 957A82431D5B29CD00F4722D /* swipeMonthYearUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -266,14 +184,6 @@
 				TargetAttributes = {
 					957A821E1D5B29CD00F4722D = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					957A82371D5B29CD00F4722D = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 957A821E1D5B29CD00F4722D;
-					};
-					957A82421D5B29CD00F4722D = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 957A821E1D5B29CD00F4722D;
 					};
 				};
 			};
@@ -291,8 +201,6 @@
 			projectRoot = "";
 			targets = (
 				957A821E1D5B29CD00F4722D /* swipeMonthYear */,
-				957A82371D5B29CD00F4722D /* swipeMonthYearTests */,
-				957A82421D5B29CD00F4722D /* swipeMonthYearUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -308,20 +216,6 @@
 				957A822F1D5B29CD00F4722D /* Assets.xcassets in Resources */,
 				957A822D1D5B29CD00F4722D /* Main.storyboard in Resources */,
 				954923611D5B2E6400B5221B /* SwipeMonthView in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		957A82361D5B29CD00F4722D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		957A82411D5B29CD00F4722D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,36 +252,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		A0E005B97627E55267DD5B67 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swipeMonthYearTests/Pods-swipeMonthYearTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C722773190810079280F23B1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swipeMonthYearUITests/Pods-swipeMonthYearUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E1BF9066DCA1F0729892DF54 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -403,51 +267,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swipeMonthYear/Pods-swipeMonthYear-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E6B20B40D4057C7883BE633E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		EEE1C1132F86263182491338 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F5CA746D20F869D46CCF3406 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swipeMonthYearTests/Pods-swipeMonthYearTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -461,36 +280,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		957A82341D5B29CD00F4722D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				957A823D1D5B29CD00F4722D /* swipeMonthYearTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		957A823F1D5B29CD00F4722D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				957A82481D5B29CD00F4722D /* swipeMonthYearUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		957A823A1D5B29CD00F4722D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 957A821E1D5B29CD00F4722D /* swipeMonthYear */;
-			targetProxy = 957A82391D5B29CD00F4722D /* PBXContainerItemProxy */;
-		};
-		957A82451D5B29CD00F4722D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 957A821E1D5B29CD00F4722D /* swipeMonthYear */;
-			targetProxy = 957A82441D5B29CD00F4722D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		957A822B1D5B29CD00F4722D /* Main.storyboard */ = {
@@ -549,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -588,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -620,56 +410,6 @@
 			};
 			name = Release;
 		};
-		957A82501D5B29CD00F4722D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10BA1C1156D3030E687898FD /* Pods-swipeMonthYearTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = swipeMonthYearTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.annv.swipeMonthYearTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swipeMonthYear.app/swipeMonthYear";
-			};
-			name = Debug;
-		};
-		957A82511D5B29CD00F4722D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32104FFCBBBA134DC6E9C639 /* Pods-swipeMonthYearTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = swipeMonthYearTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.annv.swipeMonthYearTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swipeMonthYear.app/swipeMonthYear";
-			};
-			name = Release;
-		};
-		957A82531D5B29CD00F4722D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32A5AF9C7F7D1C31841939FE /* Pods-swipeMonthYearUITests.debug.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = swipeMonthYearUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.annv.swipeMonthYearUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = swipeMonthYear;
-			};
-			name = Debug;
-		};
-		957A82541D5B29CD00F4722D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 538F54F643AC5128795126F2 /* Pods-swipeMonthYearUITests.release.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = swipeMonthYearUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.annv.swipeMonthYearUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = swipeMonthYear;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -687,24 +427,6 @@
 			buildConfigurations = (
 				957A824D1D5B29CD00F4722D /* Debug */,
 				957A824E1D5B29CD00F4722D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		957A824F1D5B29CD00F4722D /* Build configuration list for PBXNativeTarget "swipeMonthYearTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				957A82501D5B29CD00F4722D /* Debug */,
-				957A82511D5B29CD00F4722D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		957A82521D5B29CD00F4722D /* Build configuration list for PBXNativeTarget "swipeMonthYearUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				957A82531D5B29CD00F4722D /* Debug */,
-				957A82541D5B29CD00F4722D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
