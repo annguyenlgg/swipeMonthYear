@@ -7,6 +7,7 @@
 //
 
 #import "SwipeMonthView.h"
+#import "GlobalDefine.h"
 
 @implementation SwipeMonthView
 @synthesize tempDate;
