@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 Nhan Nguyen. All rights reserved.
 //
 /*******************************Network Define***************************************/
-#import "AppDelegate.h"
 #define NOTIFICATION_DETECT_SCREEN_SIZE @"NOTIFICATION_DETECT_SCREEN_SIZE"
 #define NOTIFICATION_DETECT_MODAL_SCREEN_SIZE @"NOTIFICATION_DETECT_MODAL_SCREEN_SIZE"
 #define NOTIFICATION_DETECT_AFTER_MODAL_SCREEN_SIZE @"NOTIFICATION_DETECT_AFTER_MODAL_SCREEN_SIZE"
@@ -20,7 +19,6 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 #define kiPhoneRatioWidth(x) (kScreenWidth/x)
 #define kiPhoneRatioHeight(x) (kScreenHeight/x)
 #define trimString(str) [str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]
-#define GAppDelegate [AppDelegate getInstance]
 #define GSharedApplication [UIApplication sharedApplication]
 #define USER_DEFAULT [NSUserDefaults standardUserDefaults]
 
