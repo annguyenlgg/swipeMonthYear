@@ -7,162 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3632FCE65201FEB912CDA122 /* libPods-swipeMonthYear.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB23A4490739588992C372C3 /* libPods-swipeMonthYear.a */; };
-		954923611D5B2E6400B5221B /* SwipeMonthView in Resources */ = {isa = PBXBuildFile; fileRef = 9549235E1D5B2E6400B5221B /* SwipeMonthView */; };
-		954923621D5B2E6400B5221B /* SwipeTimeView in Resources */ = {isa = PBXBuildFile; fileRef = 9549235F1D5B2E6400B5221B /* SwipeTimeView */; };
-		954923631D5B2E6400B5221B /* SwipeYearAndMonth in Resources */ = {isa = PBXBuildFile; fileRef = 954923601D5B2E6400B5221B /* SwipeYearAndMonth */; };
-		957A82241D5B29CD00F4722D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 957A82231D5B29CD00F4722D /* main.m */; };
-		957A82271D5B29CD00F4722D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 957A82261D5B29CD00F4722D /* AppDelegate.m */; };
-		957A822A1D5B29CD00F4722D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957A82291D5B29CD00F4722D /* ViewController.m */; };
-		957A822D1D5B29CD00F4722D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957A822B1D5B29CD00F4722D /* Main.storyboard */; };
-		957A822F1D5B29CD00F4722D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957A822E1D5B29CD00F4722D /* Assets.xcassets */; };
-		957A82321D5B29CD00F4722D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957A82301D5B29CD00F4722D /* LaunchScreen.storyboard */; };
+		958A6BBD1D5C21E300E22412 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 958A6BBC1D5C21E300E22412 /* main.m */; };
+		958A6BC01D5C21E300E22412 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 958A6BBF1D5C21E300E22412 /* AppDelegate.m */; };
+		958A6BC31D5C21E300E22412 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 958A6BC21D5C21E300E22412 /* ViewController.m */; };
+		958A6BC61D5C21E300E22412 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958A6BC41D5C21E300E22412 /* Main.storyboard */; };
+		958A6BC81D5C21E300E22412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958A6BC71D5C21E300E22412 /* Assets.xcassets */; };
+		958A6BCB1D5C21E300E22412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958A6BC91D5C21E300E22412 /* LaunchScreen.storyboard */; };
+		958A6BD61D5C221B00E22412 /* SwipeMonthView in Resources */ = {isa = PBXBuildFile; fileRef = 958A6BD31D5C221B00E22412 /* SwipeMonthView */; };
+		958A6BD71D5C221B00E22412 /* SwipeTimeView in Resources */ = {isa = PBXBuildFile; fileRef = 958A6BD41D5C221B00E22412 /* SwipeTimeView */; };
+		958A6BD81D5C221B00E22412 /* SwipeYearAndMonth in Resources */ = {isa = PBXBuildFile; fileRef = 958A6BD51D5C221B00E22412 /* SwipeYearAndMonth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		066593DA3A48635A036C6221 /* Pods-swipeMonthYear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swipeMonthYear.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swipeMonthYear/Pods-swipeMonthYear.debug.xcconfig"; sourceTree = "<group>"; };
-		10BA1C1156D3030E687898FD /* Pods-swipeMonthYearTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swipeMonthYearTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swipeMonthYearTests/Pods-swipeMonthYearTests.debug.xcconfig"; sourceTree = "<group>"; };
-		30099B39284D34E11F3F47A2 /* libPods-swipeMonthYearUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-swipeMonthYearUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32104FFCBBBA134DC6E9C639 /* Pods-swipeMonthYearTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swipeMonthYearTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swipeMonthYearTests/Pods-swipeMonthYearTests.release.xcconfig"; sourceTree = "<group>"; };
-		32A5AF9C7F7D1C31841939FE /* Pods-swipeMonthYearUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swipeMonthYearUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swipeMonthYearUITests/Pods-swipeMonthYearUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		3DDB2D8613AEFAF090D708CE /* libPods-swipeMonthYearTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-swipeMonthYearTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		49C876310FEFDD6C1D9445E5 /* Pods-swipeMonthYear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swipeMonthYear.release.xcconfig"; path = "Pods/Target Support Files/Pods-swipeMonthYear/Pods-swipeMonthYear.release.xcconfig"; sourceTree = "<group>"; };
-		538F54F643AC5128795126F2 /* Pods-swipeMonthYearUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swipeMonthYearUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swipeMonthYearUITests/Pods-swipeMonthYearUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9549235E1D5B2E6400B5221B /* SwipeMonthView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwipeMonthView; sourceTree = "<group>"; };
-		9549235F1D5B2E6400B5221B /* SwipeTimeView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwipeTimeView; sourceTree = "<group>"; };
-		954923601D5B2E6400B5221B /* SwipeYearAndMonth */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwipeYearAndMonth; sourceTree = "<group>"; };
-		957A821F1D5B29CD00F4722D /* swipeMonthYear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swipeMonthYear.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		957A82231D5B29CD00F4722D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		957A82251D5B29CD00F4722D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		957A82261D5B29CD00F4722D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		957A82281D5B29CD00F4722D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		957A82291D5B29CD00F4722D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		957A822C1D5B29CD00F4722D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		957A822E1D5B29CD00F4722D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		957A82311D5B29CD00F4722D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		957A82331D5B29CD00F4722D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		957A823C1D5B29CD00F4722D /* swipeMonthYearTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = swipeMonthYearTests.m; sourceTree = "<group>"; };
-		957A823E1D5B29CD00F4722D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		957A82471D5B29CD00F4722D /* swipeMonthYearUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = swipeMonthYearUITests.m; sourceTree = "<group>"; };
-		957A82491D5B29CD00F4722D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		958A6B6F1D5C182000E22412 /* GlobalDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDefine.h; sourceTree = "<group>"; };
-		FB23A4490739588992C372C3 /* libPods-swipeMonthYear.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-swipeMonthYear.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958A6BB81D5C21E300E22412 /* swipeMonthYear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swipeMonthYear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		958A6BBC1D5C21E300E22412 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		958A6BBE1D5C21E300E22412 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		958A6BBF1D5C21E300E22412 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		958A6BC11D5C21E300E22412 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		958A6BC21D5C21E300E22412 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		958A6BC51D5C21E300E22412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		958A6BC71D5C21E300E22412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		958A6BCA1D5C21E300E22412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		958A6BCC1D5C21E300E22412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958A6BD21D5C221B00E22412 /* GlobalDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDefine.h; sourceTree = "<group>"; };
+		958A6BD31D5C221B00E22412 /* SwipeMonthView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwipeMonthView; sourceTree = "<group>"; };
+		958A6BD41D5C221B00E22412 /* SwipeTimeView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwipeTimeView; sourceTree = "<group>"; };
+		958A6BD51D5C221B00E22412 /* SwipeYearAndMonth */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwipeYearAndMonth; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		957A821C1D5B29CD00F4722D /* Frameworks */ = {
+		958A6BB51D5C21E300E22412 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3632FCE65201FEB912CDA122 /* libPods-swipeMonthYear.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		111C000D031918A5F2D3BD83 /* Pods */ = {
+		958A6BAF1D5C21E300E22412 = {
 			isa = PBXGroup;
 			children = (
-				066593DA3A48635A036C6221 /* Pods-swipeMonthYear.debug.xcconfig */,
-				49C876310FEFDD6C1D9445E5 /* Pods-swipeMonthYear.release.xcconfig */,
-				10BA1C1156D3030E687898FD /* Pods-swipeMonthYearTests.debug.xcconfig */,
-				32104FFCBBBA134DC6E9C639 /* Pods-swipeMonthYearTests.release.xcconfig */,
-				32A5AF9C7F7D1C31841939FE /* Pods-swipeMonthYearUITests.debug.xcconfig */,
-				538F54F643AC5128795126F2 /* Pods-swipeMonthYearUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		957A82161D5B29CD00F4722D = {
-			isa = PBXGroup;
-			children = (
-				957A82211D5B29CD00F4722D /* swipeMonthYear */,
-				957A823B1D5B29CD00F4722D /* swipeMonthYearTests */,
-				957A82461D5B29CD00F4722D /* swipeMonthYearUITests */,
-				957A82201D5B29CD00F4722D /* Products */,
-				111C000D031918A5F2D3BD83 /* Pods */,
-				AC08007A3B1B9BABBE84708A /* Frameworks */,
+				958A6BBA1D5C21E300E22412 /* swipeMonthYear */,
+				958A6BB91D5C21E300E22412 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		957A82201D5B29CD00F4722D /* Products */ = {
+		958A6BB91D5C21E300E22412 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				957A821F1D5B29CD00F4722D /* swipeMonthYear.app */,
+				958A6BB81D5C21E300E22412 /* swipeMonthYear.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		957A82211D5B29CD00F4722D /* swipeMonthYear */ = {
+		958A6BBA1D5C21E300E22412 /* swipeMonthYear */ = {
 			isa = PBXGroup;
 			children = (
-				958A6B6F1D5C182000E22412 /* GlobalDefine.h */,
-				9549235E1D5B2E6400B5221B /* SwipeMonthView */,
-				9549235F1D5B2E6400B5221B /* SwipeTimeView */,
-				954923601D5B2E6400B5221B /* SwipeYearAndMonth */,
-				957A82251D5B29CD00F4722D /* AppDelegate.h */,
-				957A82261D5B29CD00F4722D /* AppDelegate.m */,
-				957A82281D5B29CD00F4722D /* ViewController.h */,
-				957A82291D5B29CD00F4722D /* ViewController.m */,
-				957A822B1D5B29CD00F4722D /* Main.storyboard */,
-				957A822E1D5B29CD00F4722D /* Assets.xcassets */,
-				957A82301D5B29CD00F4722D /* LaunchScreen.storyboard */,
-				957A82331D5B29CD00F4722D /* Info.plist */,
-				957A82221D5B29CD00F4722D /* Supporting Files */,
+				958A6BD21D5C221B00E22412 /* GlobalDefine.h */,
+				958A6BD31D5C221B00E22412 /* SwipeMonthView */,
+				958A6BD41D5C221B00E22412 /* SwipeTimeView */,
+				958A6BD51D5C221B00E22412 /* SwipeYearAndMonth */,
+				958A6BBE1D5C21E300E22412 /* AppDelegate.h */,
+				958A6BBF1D5C21E300E22412 /* AppDelegate.m */,
+				958A6BC11D5C21E300E22412 /* ViewController.h */,
+				958A6BC21D5C21E300E22412 /* ViewController.m */,
+				958A6BC41D5C21E300E22412 /* Main.storyboard */,
+				958A6BC71D5C21E300E22412 /* Assets.xcassets */,
+				958A6BC91D5C21E300E22412 /* LaunchScreen.storyboard */,
+				958A6BCC1D5C21E300E22412 /* Info.plist */,
+				958A6BBB1D5C21E300E22412 /* Supporting Files */,
 			);
 			path = swipeMonthYear;
 			sourceTree = "<group>";
 		};
-		957A82221D5B29CD00F4722D /* Supporting Files */ = {
+		958A6BBB1D5C21E300E22412 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				957A82231D5B29CD00F4722D /* main.m */,
+				958A6BBC1D5C21E300E22412 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		957A823B1D5B29CD00F4722D /* swipeMonthYearTests */ = {
-			isa = PBXGroup;
-			children = (
-				957A823C1D5B29CD00F4722D /* swipeMonthYearTests.m */,
-				957A823E1D5B29CD00F4722D /* Info.plist */,
-			);
-			path = swipeMonthYearTests;
-			sourceTree = "<group>";
-		};
-		957A82461D5B29CD00F4722D /* swipeMonthYearUITests */ = {
-			isa = PBXGroup;
-			children = (
-				957A82471D5B29CD00F4722D /* swipeMonthYearUITests.m */,
-				957A82491D5B29CD00F4722D /* Info.plist */,
-			);
-			path = swipeMonthYearUITests;
-			sourceTree = "<group>";
-		};
-		AC08007A3B1B9BABBE84708A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FB23A4490739588992C372C3 /* libPods-swipeMonthYear.a */,
-				3DDB2D8613AEFAF090D708CE /* libPods-swipeMonthYearTests.a */,
-				30099B39284D34E11F3F47A2 /* libPods-swipeMonthYearUITests.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		957A821E1D5B29CD00F4722D /* swipeMonthYear */ = {
+		958A6BB71D5C21E300E22412 /* swipeMonthYear */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 957A824C1D5B29CD00F4722D /* Build configuration list for PBXNativeTarget "swipeMonthYear" */;
+			buildConfigurationList = 958A6BCF1D5C21E300E22412 /* Build configuration list for PBXNativeTarget "swipeMonthYear" */;
 			buildPhases = (
-				77AB4D4F114DB5B3139482C1 /* [CP] Check Pods Manifest.lock */,
-				957A821B1D5B29CD00F4722D /* Sources */,
-				957A821C1D5B29CD00F4722D /* Frameworks */,
-				957A821D1D5B29CD00F4722D /* Resources */,
-				E1BF9066DCA1F0729892DF54 /* [CP] Embed Pods Frameworks */,
-				7503D1AB172DCF4A412F1A62 /* [CP] Copy Pods Resources */,
+				958A6BB41D5C21E300E22412 /* Sources */,
+				958A6BB51D5C21E300E22412 /* Frameworks */,
+				958A6BB61D5C21E300E22412 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -170,24 +107,24 @@
 			);
 			name = swipeMonthYear;
 			productName = swipeMonthYear;
-			productReference = 957A821F1D5B29CD00F4722D /* swipeMonthYear.app */;
+			productReference = 958A6BB81D5C21E300E22412 /* swipeMonthYear.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		957A82171D5B29CD00F4722D /* Project object */ = {
+		958A6BB01D5C21E300E22412 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = AnN;
 				TargetAttributes = {
-					957A821E1D5B29CD00F4722D = {
+					958A6BB71D5C21E300E22412 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 957A821A1D5B29CD00F4722D /* Build configuration list for PBXProject "swipeMonthYear" */;
+			buildConfigurationList = 958A6BB31D5C21E300E22412 /* Build configuration list for PBXProject "swipeMonthYear" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -195,106 +132,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 957A82161D5B29CD00F4722D;
-			productRefGroup = 957A82201D5B29CD00F4722D /* Products */;
+			mainGroup = 958A6BAF1D5C21E300E22412;
+			productRefGroup = 958A6BB91D5C21E300E22412 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				957A821E1D5B29CD00F4722D /* swipeMonthYear */,
+				958A6BB71D5C21E300E22412 /* swipeMonthYear */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		957A821D1D5B29CD00F4722D /* Resources */ = {
+		958A6BB61D5C21E300E22412 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				957A82321D5B29CD00F4722D /* LaunchScreen.storyboard in Resources */,
-				954923631D5B2E6400B5221B /* SwipeYearAndMonth in Resources */,
-				954923621D5B2E6400B5221B /* SwipeTimeView in Resources */,
-				957A822F1D5B29CD00F4722D /* Assets.xcassets in Resources */,
-				957A822D1D5B29CD00F4722D /* Main.storyboard in Resources */,
-				954923611D5B2E6400B5221B /* SwipeMonthView in Resources */,
+				958A6BCB1D5C21E300E22412 /* LaunchScreen.storyboard in Resources */,
+				958A6BD81D5C221B00E22412 /* SwipeYearAndMonth in Resources */,
+				958A6BD71D5C221B00E22412 /* SwipeTimeView in Resources */,
+				958A6BC81D5C21E300E22412 /* Assets.xcassets in Resources */,
+				958A6BC61D5C21E300E22412 /* Main.storyboard in Resources */,
+				958A6BD61D5C221B00E22412 /* SwipeMonthView in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		7503D1AB172DCF4A412F1A62 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swipeMonthYear/Pods-swipeMonthYear-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		77AB4D4F114DB5B3139482C1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E1BF9066DCA1F0729892DF54 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swipeMonthYear/Pods-swipeMonthYear-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		957A821B1D5B29CD00F4722D /* Sources */ = {
+		958A6BB41D5C21E300E22412 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				957A822A1D5B29CD00F4722D /* ViewController.m in Sources */,
-				957A82271D5B29CD00F4722D /* AppDelegate.m in Sources */,
-				957A82241D5B29CD00F4722D /* main.m in Sources */,
+				958A6BC31D5C21E300E22412 /* ViewController.m in Sources */,
+				958A6BC01D5C21E300E22412 /* AppDelegate.m in Sources */,
+				958A6BBD1D5C21E300E22412 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		957A822B1D5B29CD00F4722D /* Main.storyboard */ = {
+		958A6BC41D5C21E300E22412 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				957A822C1D5B29CD00F4722D /* Base */,
+				958A6BC51D5C21E300E22412 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		957A82301D5B29CD00F4722D /* LaunchScreen.storyboard */ = {
+		958A6BC91D5C21E300E22412 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				957A82311D5B29CD00F4722D /* Base */,
+				958A6BCA1D5C21E300E22412 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -302,7 +191,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		957A824A1D5B29CD00F4722D /* Debug */ = {
+		958A6BCD1D5C21E300E22412 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -339,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -347,7 +236,7 @@
 			};
 			name = Debug;
 		};
-		957A824B1D5B29CD00F4722D /* Release */ = {
+		958A6BCE1D5C21E300E22412 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -378,7 +267,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -386,9 +275,8 @@
 			};
 			name = Release;
 		};
-		957A824D1D5B29CD00F4722D /* Debug */ = {
+		958A6BD01D5C21E300E22412 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 066593DA3A48635A036C6221 /* Pods-swipeMonthYear.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = swipeMonthYear/Info.plist;
@@ -398,9 +286,8 @@
 			};
 			name = Debug;
 		};
-		957A824E1D5B29CD00F4722D /* Release */ = {
+		958A6BD11D5C21E300E22412 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49C876310FEFDD6C1D9445E5 /* Pods-swipeMonthYear.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = swipeMonthYear/Info.plist;
@@ -413,25 +300,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		957A821A1D5B29CD00F4722D /* Build configuration list for PBXProject "swipeMonthYear" */ = {
+		958A6BB31D5C21E300E22412 /* Build configuration list for PBXProject "swipeMonthYear" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				957A824A1D5B29CD00F4722D /* Debug */,
-				957A824B1D5B29CD00F4722D /* Release */,
+				958A6BCD1D5C21E300E22412 /* Debug */,
+				958A6BCE1D5C21E300E22412 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		957A824C1D5B29CD00F4722D /* Build configuration list for PBXNativeTarget "swipeMonthYear" */ = {
+		958A6BCF1D5C21E300E22412 /* Build configuration list for PBXNativeTarget "swipeMonthYear" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				957A824D1D5B29CD00F4722D /* Debug */,
-				957A824E1D5B29CD00F4722D /* Release */,
+				958A6BD01D5C21E300E22412 /* Debug */,
+				958A6BD11D5C21E300E22412 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 957A82171D5B29CD00F4722D /* Project object */;
+	rootObject = 958A6BB01D5C21E300E22412 /* Project object */;
 }
