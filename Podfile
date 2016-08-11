@@ -4,7 +4,7 @@
 target 'swipeMonthYear' do
   # Uncomment this line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
-
+  pod 'IQKeyboardManager', '~> 4.0.2'
   # Pods for swipeMonthYear
 
   target 'swipeMonthYearTests' do
